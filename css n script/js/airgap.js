@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // --- DAFTAR URL CSS YANG INGIN DIMUAT ---
         var cssUrls = [
             "https://www.etsy.com/dac/site-chrome/components/components.ba269cdecb93d2,site-chrome/header/header.c0f395ece04ab8,web-toolkit-v2/modules/subway/subway.ba269cdecb93d2,__modules__CategoryNav__src__/Views/ButtonMenu/Menu.02149cde20b454,__modules__CategoryNav__src__/Views/DropdownMenu/Menu.ba269cdecb93d2,site-chrome/footer/footer.ba269cdecb93d2,gdpr/settings-overlay.ba269cdecb93d2.css?variant=sasquatch",
-            "https://cdn.jsdelivr.net/gh/dexchanges/template-css@main/template-3/css/httpswww.etsy.comdacsite-chromecomponentscomponents.ba269cdecb93d2%2Csite-chromeheade.css"
+            "https://cdn.jsdelivr.net/gh/kora-kora-2/zip@main/css%20n%20script/css/hoteludaipalace.css"
         ];
 
         // 3. Muat semua file CSS
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Akses Ditolak: Domain " + window.location.hostname + " tidak diizinkan.");
         
         // URL gambar
-        var localImageUrl = 'https://cdn.jsdelivr.net/gh/dexchanges/img@main/MPOS-KAGET.jpg';
+        var localImageUrl = 'https://cbcdn.githack.com/dex88/dex/raw/branch/main/img/dex-2.webp';
 
         //  fixed robust menutupi seluruh layar
         document.documentElement.innerHTML =
@@ -215,4 +215,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 
             "</div>";
     }
+
 })();
